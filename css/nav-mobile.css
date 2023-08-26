@@ -1,0 +1,52 @@
+
+.nav__mobile.open .nav__list {
+    padding-top: 120px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0px;
+    left: -102px;
+    right: -73px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+
+    background-color: rgb(163, 159, 159);
+}
+
+
+.nav__mobile {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+
+.burger {
+    display: none;
+}
+
+.nav__list--item a {
+    color: rgb(0, 0, 0);
+}
+
+.nav__list {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.nav__list--item {
+    margin-bottom: 30px;
+}
+
+.container__mobile {
+
+}
+
+.nav__list--mobile {
+}
+
+.button {
+}

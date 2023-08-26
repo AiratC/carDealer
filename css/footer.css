@@ -1,0 +1,117 @@
+.footer {
+    background: #1F1905;
+    min-height: 309px;
+    padding-top: 40px;
+}
+
+.footer__container {
+    display: flex;
+
+}
+
+.footer__left {
+}
+
+.footer__logo {
+}
+
+.logo__span {
+    display: inline-block;
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.16px;
+    margin-left: 17px;
+    padding-top: 14px;
+    
+}
+
+.footer__text {
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    margin-top: 64px;
+    width: 235px;
+}
+
+.footer__center {
+    padding-left: 318px;
+    padding-top: 38px;
+}
+
+.container__list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.list__title {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 111.111% */
+}
+
+.container__list li + li {
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    margin-top: 32px;
+    opacity: 0.8;
+}
+
+.footer__right {
+}
+
+.icons {
+    padding-left: 30px;
+}
+
+.VK, .whatsapp, .Telegram {
+    width: 25px;
+    height: 25px;
+}
+
+.VK {
+    opacity: 0.8;
+}
+
+.Telegram {
+}
+
+.whatsapp {
+}
+
+
+.copy__right {
+    padding: 20px 0;
+    background: #EE8313;
+    text-align: center;
+}
+
+.copy__right--text {
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+
+
+@media (max-width: 1055px) {
+    .footer__center {
+        display: none;
+    }
+}

@@ -1,0 +1,125 @@
+.rent {
+}
+
+.rent__container {
+    margin-bottom: 60px;
+}
+
+.rent__title {
+    color: #FFF;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 123.077% */
+    letter-spacing: 0.312px;
+}
+
+.rent__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.top {
+    position: absolute;
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px; /* 130% */
+    letter-spacing: 0.24px;
+
+    transform: translate(44px, 49px);
+}
+
+.bottom {
+    position: absolute;
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.144px;
+    right: 59px;
+    bottom: 0;
+    /* transform: translate(-188px, 431px); */
+}
+
+.bottom::after {
+    display: block;
+    content: "";
+    transform: translate(112px, -30px);
+    width: 32px;
+    height: 32px;
+    background-image: url('./../img/arrow-right.svg');
+}
+
+.bottom::after:hover {
+    margin-left: 20px;
+}
+
+
+@media (max-width: 855px) {
+    .top {
+        font-size: 30px;
+        transform: translate(17px, 8px);
+    }
+}
+
+
+@media (max-width: 745px) {
+    .rent__cards {
+        grid-template-columns: repeat(2, 300px);
+        column-gap: 102px;
+        row-gap: 100px;
+    }
+}
+
+
+@media (max-width: 730px) {
+    .rent__cards {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 102px;
+        row-gap: 100px;
+    }
+
+    .bottom {
+        right: 213px;
+        left: 450;
+        bottom: 0;
+    }
+}
+
+
+@media (max-width: 494px) {
+    .rent__title {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .rent__cards {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 372px) {
+    .bottom {
+        right: 55px;
+        bottom: -20px;
+    }
+}
